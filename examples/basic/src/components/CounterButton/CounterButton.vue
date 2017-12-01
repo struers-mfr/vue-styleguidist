@@ -2,7 +2,7 @@
 <div class="CounterButton">
 	<button class="button"
 		@click.prevent="increment">
-		{{count}}
+		{{value}}
 	</button>
 	<!-- {{test}} -->
 </div>
@@ -29,7 +29,7 @@ export default {
 		 * Increments the counter. This method is not marked @public and is not visible in the styleguide.
 		 */
 		increment() {
-			value = count;
+			value = this.count;
 			this.value++;
 			/**
 			 * After increment event
