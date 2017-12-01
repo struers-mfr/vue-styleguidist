@@ -20,4 +20,6 @@ module.exports = {
 		},
 	},
 	showUsage: true,
+	serverPort: 6060,
+	vuex: './src/store/index',
 };
